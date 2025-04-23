@@ -22,8 +22,8 @@ a collection of crates that allow you to export a static, noninteractive svg fro
 - some elements are half a pixel off
 - the default fonts i included are pretty big (~400kb) and its currently not possible to switch them out dynamically
 
-## usage (html file)
+## example usage (html file)
 
-- use the included html file
-- paste the resulting egui.svg into the empty body
+- run the simple example
+- paste the resulting egui.svg into the included html file's body
 - open the html file in your browser
