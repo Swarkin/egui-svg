@@ -1,0 +1,16 @@
+[package]
+name = "egui-svg"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+egui.workspace = true
+egui-svg-fonts.workspace = true
+
+[dev-dependencies]
+egui_demo_lib.workspace = true
+
+[lints]
+workspace = true

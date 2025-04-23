@@ -1,0 +1,17 @@
+[package]
+name = "app-native"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[features]
+demo = ["dep:egui_demo_lib"]
+
+[dependencies]
+eframe.workspace = true
+egui_demo_lib = { workspace = true, optional = true }
+egui-svg-fonts.workspace = true
+
+[lints]
+workspace = true
